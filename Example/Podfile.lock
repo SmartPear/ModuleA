@@ -1,0 +1,29 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MJRefresh (3.7.5)
+  - ModuleA (0.1.0):
+    - FMDB
+    - MJRefresh
+
+DEPENDENCIES:
+  - ModuleA (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  ModuleA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  ModuleA: 0a038e61ff85041cdd50eb8ecaca84bf58378488
+
+PODFILE CHECKSUM: 16e511148135cf1fd90742efe1149e4ee46e94aa
+
+COCOAPODS: 1.11.3
