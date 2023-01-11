@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ModuleA'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of ModuleA.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.source_files = 'ModuleA/Classes/**/*'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'ModuleA' => ['ModuleA/Assets/*.png']
